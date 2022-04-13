@@ -13,6 +13,7 @@ Learn about the basics of HTML forms by reading Mozilla's tutorial Your first fo
 This exercise is not submitted to GitHub, it's enough to just read the tutorial
 
 ## 0.4: New note
+![Answer to question 0.4](https://github.com/alkhdaniel/Fullstack-Open-2022/blob/main/part0/0.4-New-Note.png)
 
 ## 0.5: Single page app
 
