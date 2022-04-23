@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+const Button = ({text, handleClick}) => <button onClick={handleClick}>{text}</button>
+
 const App = () => {
   const anecdotes = [
     'If it hurts, do it more often',
@@ -15,7 +17,8 @@ const App = () => {
 
   return (
     <div>
-      {anecdotes[selected]}
+      <div>{anecdotes[selected]}</div>
+      <Button handleClick={() => setSelected(Math.floor(Math.random() * anecdotes.length))} text="Next anecdote" />
     </div>
   )
 }
